@@ -7,7 +7,7 @@
 ## SCREEN SHOT
 ![screenshot](./todo.png)
 ## Live Demo
-[Click Here to view live version](https://kaylemba.github.io/First-capstone/)
+[Click Here to view live version](https://kaylemba.github.io/Todo-list/)
 ## Built With
 ### Major languages
 - HTML
