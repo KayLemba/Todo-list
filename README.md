@@ -1,76 +1,51 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name
+## To do List
 
-> One paragraph statement about the project.
+> This project contains the HTML, CSS and JavaScript. This is a milestone project for microverse by Kalolo Chola Lemba.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
+# WORK FLOW SCREEN 
+## SCREEN SHOT
+![screenshot](./todo.png)
 ## Live Demo
+[Click Here to view live version](https://kaylemba.github.io/Todo-list/)
+## Built With
+### Major languages
+- HTML
+- CSS
+- Javascript
 
-[Live Demo Link](https://livedemo.com)
-
+### Technologies used
+- Github
+- Git
+- Visual Studio Code
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+*Instructions on how to access my project locally.**
+ To Access my project locally please follow the following instructions;
+1. Enter this url: https://kaylemba.github.io/Todo-list/ in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+Here is my repository link: https://kaylemba.github.io/Todo-list/
 
 
+## Author
+👤 Kalolo Chola Lemba
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@KayLemba ](https://github.com/KayLemba)
+- Twitter: [@King-Kaylo1 ](https://twitter.com/King_Kaylo1) 
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba-41a8339a/-41a8339a/)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+Feel free to check the issues page.
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
+## Show your support
+Give a ⭐️ if you like this project!
 
-This project is [MIT](./MIT.md) licensed.
+📝 License
+This project is MIT licensed.
