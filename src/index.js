@@ -51,7 +51,7 @@ for (let i = 0; i < todoList.length; i += 1) {
   let taskItem = `
     <li class="d-flex s-between list-item">`;
   if (task.completed) {
-    taskItem += `<span class="material-icons done" >
+    taskItem += `<span class="material-icons done" onclick="updateStatus(${task.index}, 'pending')">
           done
         </span>
         <p contenteditable="true" class="completed">
