@@ -5,7 +5,7 @@
 
 # WORK FLOW SCREEN 
 ## SCREEN SHOT
-![screenshot](./todo.png)
+![screenshot](./interactive.png)
 ## Live Demo
 [Click Here to view live version](https://kaylemba.github.io/Todo-list/)
 ## Built With
