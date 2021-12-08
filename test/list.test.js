@@ -1,4 +1,7 @@
-// eslint-disable-next-line import/no-unresolved
+/**
+ * @jest-environment jsdom
+ */
+
 import List from '../src/list.js';
 
 document.body.innerHTML = `
@@ -19,26 +22,29 @@ document.body.innerHTML = `
     </div>
   </section>
 `;
-describe('add and remove', () => {
-  // mock Localstorage simulation
+describe('Check add and remove functionality', () => {
   window.localStorage = Storage.prototype;
-  test('Add task', () => {
+  test('Adding a task', () => {
     const todoList = new List();
     todoList.addActivity('Test');
+    // Add test
     expect(todoList.list).toHaveLength(1);
 
-    // storage mocked data
+    // Mocking local storage
     const storedData = JSON.parse(localStorage.getItem('todo-list'));
+    // Local Storage Test 1
     expect(storedData).not.toBe(null);
+    // Local Storage Test 2
     expect(localStorage).toHaveLength(1);
   });
-  test('remove task', () => {
+  test('Removing a task', () => {
     const todoList = new List();
     todoList.clearAll();
     todoList.addActivity('Test');
     todoList.addActivity('Test');
     todoList.addActivity('Test');
     todoList.deleteActivity(1);
+    // Remove test
     expect(todoList.list).toHaveLength(2);
   });
 });
