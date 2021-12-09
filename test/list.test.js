@@ -59,14 +59,15 @@ describe('Check add and remove functionality', () => {
     });
   });
 
-  describe('Clear the list', () => {
-    test('Clear all tasks', () => {
+  describe('Clearing completed items', () => {
+    test('Clear completed tasks', () => {
       const todoList = new List();
       todoList.addActivity('Test 1');
       todoList.addActivity('Test 2');
       todoList.addActivity('Test 3');
-      todoList.clearAll();
-      expect(todoList.list).toHaveLength(0);
+      todoList.updateActivityStatus(1);
+      todoList.clearCompleted();
+      expect(todoList.list).toHaveLength(2);
     });
   });
 });
