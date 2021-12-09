@@ -39,7 +39,8 @@ describe('Check add and remove functionality', () => {
   });
   test('Removing a task', () => {
     const todoList = new List();
-
+    // Clear all the tasks
+    todoList.clearAll();
     todoList.addActivity('Test');
     todoList.addActivity('Test');
     todoList.addActivity('Test');
@@ -53,6 +54,7 @@ describe('Check add and remove functionality', () => {
       const todoList = new List();
       todoList.addActivity('Test');
       todoList.updateActivityStatus(1);
+      // Testing update function
       expect(todoList.list[0].completed).toBe(true);
     });
   });
