@@ -54,8 +54,19 @@ describe('Check add and remove functionality', () => {
       const todoList = new List();
       todoList.addActivity('Test');
       todoList.updateActivityStatus(1);
-      // Testing update function
       expect(todoList.list[0].completed).toBe(true);
+      todoList.clearAll();
+    });
+  });
+
+  describe('Clear the list', () => {
+    test('Clear all tasks', () => {
+      const todoList = new List();
+      todoList.addActivity('Test 1');
+      todoList.addActivity('Test 2');
+      todoList.addActivity('Test 3');
+      todoList.clearAll();
+      expect(todoList.list).toHaveLength(0);
     });
   });
 });
