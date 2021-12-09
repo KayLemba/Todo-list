@@ -7,7 +7,7 @@
 ## SCREEN SHOT
 ![screenshot](./interactive.png)
 ## Live Demo
-[Click Here to view live version](https://kaylemba.github.io/Todo-list/)
+[Click Here to view live version](https://kaylemba.github.io/Todo-list/dist/)
 ## Built With
 ### Major languages
 - HTML
