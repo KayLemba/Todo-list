@@ -39,12 +39,21 @@ describe('Check add and remove functionality', () => {
   });
   test('Removing a task', () => {
     const todoList = new List();
-    todoList.clearAll();
+
     todoList.addActivity('Test');
     todoList.addActivity('Test');
     todoList.addActivity('Test');
     todoList.deleteActivity(1);
     // Remove test
     expect(todoList.list).toHaveLength(2);
+  });
+
+  describe('Updating a task', () => {
+    test('Update task status', () => {
+      const todoList = new List();
+      todoList.addActivity('Test');
+      todoList.updateActivityStatus(1);
+      expect(todoList.list[0].completed).toBe(true);
+    });
   });
 });
