@@ -7,7 +7,7 @@
 ## SCREEN SHOT
 ![screenshot](./interactive.png)
 ## Live Demo
-[Click Here to view live version](https://kaylemba.github.io/Todo-list/dist/)
+[Click Here to view live version](https://quizzical-volhard-a58619.netlify.app/)
 ## Built With
 ### Major languages
 - HTML
