@@ -34,7 +34,7 @@ Here is my repository link: https://kaylemba.github.io/Todo-list/
 
 - GitHub: [@KayLemba ](https://github.com/KayLemba)
 - Twitter: [@King-Kaylo1 ](https://twitter.com/King_Kaylo1) 
-- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba-41a8339a/-41a8339a/)
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
